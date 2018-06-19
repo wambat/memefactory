@@ -50,12 +50,16 @@
                  [district0x/district-web3-utils "1.0.2"]
                  [district0x/district-format "1.0.0"]
                  [district0x/district-time "1.0.0"]
+                 [district0x/ui-component-form "0.1.0-SNAPSHOT"]
                  [medley "1.0.0"]
                  [mount "0.1.12"]
                  [org.clojure/clojurescript "1.10.238"]
                  [print-foo-cljs "2.0.3"]
                  [re-frame "0.10.5"]
-                 [garden "1.3.5"]]
+                 [garden "1.3.5"]
+                 [org.clojure/test.check "0.10.0-alpha3"]
+                 [metosin/spec-tools "0.7.0"]
+                 ]
 
   :exclusions [express-graphql]
 

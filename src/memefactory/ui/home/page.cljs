@@ -9,6 +9,7 @@
    [react-infinite]
    [memefactory.shared.utils :as shared-utils]
    [memefactory.ui.components.tiles :as tiles]
+   [memefactory.ui.components.form :as form]
    [print.foo :refer [look] :include-macros true]))
 
 (defn auctions-list [auctions]
@@ -64,6 +65,7 @@
        [:div.home
         [:img.logo]
         [:p "Inspired by the work of Simon de la Rouviere and his Curation Markets design, the third district to be deployed to dthe district0x."]
+        [form/form]
         [:div.new-on-marketplace
          [:div.header
           [:img]
